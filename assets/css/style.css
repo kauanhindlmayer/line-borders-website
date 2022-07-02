@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #28B779;
+  --background-color: #212529;
+  --text-color: #FFFFFF;
+  --custom-white: rgb(249, 251, 255);
+}
+
+span {
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.circle-avatar {
+  background-color: #28B779;
+}
+
+.section {
+  padding-top: 50px;
+}
