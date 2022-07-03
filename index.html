@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Line <span>Borders</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -23,19 +23,16 @@
               <a class="nav-link" aria-current="page" href="#">Robótica na TI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Componentes</a>
+              <a class="nav-link" aria-current="page" href="#equipe">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tinkercad</a>
+              <a class="nav-link" href="#componentes">Componentes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Código</a>
+              <a class="nav-link" href="#tinkercad">Tinkercad</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Seguidores de Linha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Equipe</a>
+              <a class="nav-link" href="#seguidor">Seguidor de Linha</a>
             </li>
           </ul>
         </div>
@@ -44,7 +41,7 @@
   </header>
 
   <main>
-    <div class="container section">
+    <div class="container">
       <div class="row">
         <h1>Por que <span>Robótica</span> na TI?</h1>
         <p>
@@ -54,16 +51,16 @@
           animação e o vegas pro para edição.
         </p>
       </div>
-    </div>
-    <div class="container bg-dark">
-      <div class="row">
-        <div class="ratio ratio-16x9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/qgNYt0Bo1Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container bg-dark">
+        <div class="row">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qgNYt0Bo1Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container section">
+    <div class="container section" id="equipe">
       <h1>Line <span>Borders</span></h1>
       <div class="row">
         <div class="col">
@@ -110,53 +107,92 @@
     </div>
 
     <div class="container section">
-      <h1>Todos os <span> Componentes</span> Utilizados</h1>
-      <div class="container-row pr-5">
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/resistor_icon.png" alt="Resistor"></div>
-          <h4 class="icon-name">Resistor</h4>
-          <p class="icon-description">Encarregado de auxiliar no acionamento da lâmpada de LED</p>
-        </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/power-supply_icon.png" alt="Suprimento de Energia"></div>
-          <h4 class="icon-name">Suprimento de Energia</h4>
-          <p class="icon-description">Encarregado de fornecer energia</p>
-        </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/photoresistor_icon.png" alt="Fotorresistor">
+      <div class="container" id="componentes">
+        <h1>Todos os <span> Componentes</span> Utilizados</h1>
+        <div class="row pr-5">
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/resistor_icon.png" alt="Resistor"></div>
+            <h4 class="icon-name">Resistor</h4>
+            <p class="icon-description">Encarregado de auxiliar no acionamento da lâmpada de LED</p>
           </div>
-          <h4 class="icon-name">Fotorresistor</h4>
-          <p class="icon-description">Encarregado de variar a resistência conforme intensidade da luz</p>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/power-supply_icon.png" alt="Suprimento de Energia"></div>
+            <h4 class="icon-name">Suprimento de Energia</h4>
+            <p class="icon-description">Encarregado de fornecer energia</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/photoresistor_icon.png" alt="Fotorresistor">
+            </div>
+            <h4 class="icon-name">Fotorresistor</h4>
+            <p class="icon-description">Encarregado de variar a resistência conforme intensidade da luz</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/led_icon.png" alt="Lâmpada LED"></div>
+            <h4 class="icon-name">Lâmpada LED</h4>
+            <p class="icon-description">Encarregado de iluminar e sinalizar</p>
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/led_icon.png" alt="Lâmpada LED"></div>
-          <h4 class="icon-name">Lâmpada LED</h4>
-          <p class="icon-description">Encarregado de iluminar e sinalizar</p>
+        <div class="row pl-5">
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/l293d_icon.png" alt="L293D"></div>
+            <h4 class="icon-name">L293D</h4>
+            <p class="icon-description">Encarregado de controlar os motores</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/board_icon.png" alt="Bredboard"></div>
+            <h4 class="icon-name">Bredboard</h4>
+            <p class="icon-description">Encarregado de integrar e conectar todo circuito</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/battery_icon.png" alt="Bateria 9V"></div>
+            <h4 class="icon-name">Bateria 9V</h4>
+            <p class="icon-description">Encarregado de proporcionar energia para o circuito</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
+            <div class="icon"><img src="assets/images/icons/arduino_icon.png" alt="Arduino"></div>
+            <h4 class="icon-name">Arduino</h4>
+            <p class="icon-description">Encarregado do desenvolvimento dos projetos e a implementação dos códigos
+            </p>
+          </div>
         </div>
+    </div>
+
+    <div class="container section" id="tinkercad">
+      <h1>Código <span>Utilizados</span></h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/code-luz-emergencia.svg" class="d-block w-50" alt="Luz Emergência">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/code-motor-1.svg" class="d-block w-50" alt="Motor 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/code-motor-2.svg" class="d-block w-50" alt="Motor 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/code-motor-3.svg" class="d-block w-50" alt="Motor 3">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/codigo-1.svg" class="d-block w-50" alt="Semáforo">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/codigo-2.svg" class="d-block w-50" alt="Semáforo">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/codigo-3.svg" class="d-block w-50" alt="Semáforo">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
       </div>
-      <div class="container-row pl-5">
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/l293d_icon.png" alt="L293D"></div>
-          <h4 class="icon-name">L293D</h4>
-          <p class="icon-description">Encarregado de controlar os motores</p>
-        </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/board_icon.png" alt="Bredboard"></div>
-          <h4 class="icon-name">Bredboard</h4>
-          <p class="icon-description">Encarregado de integrar e conectar todo circuito</p>
-        </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/battery_icon.png" alt="Bateria 9V"></div>
-          <h4 class="icon-name">Bateria 9V</h4>
-          <p class="icon-description">Encarregado de proporcionar energia para o circuito</p>
-        </div>
-        <div class="col-lg-6 col-md-6 icon-box pb-4 pt-2">
-          <div class="icon"><img src="assets/images/icons/arduino_icon.png" alt="Arduino"></div>
-          <h4 class="icon-name">Arduino</h4>
-          <p class="icon-description">Encarregado do desenvolvimento dos projetos e a implementação dos códigos
-          </p>
-        </div>
-      </div>
+    </div>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

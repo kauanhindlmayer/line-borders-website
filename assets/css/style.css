@@ -1,8 +1,12 @@
 :root {
   --primary-color: #28B779;
-  --background-color: #212529;
+  --background-color: #0d1117;
   --text-color: #FFFFFF;
   --custom-white: rgb(249, 251, 255);
+}
+
+* {
+  background-color: var(--background-color);
 }
 
 span {
@@ -19,5 +23,13 @@ body {
 }
 
 .section {
-  padding-top: 50px;
+  padding-top: 200px;
+}
+
+header {
+  font-size: 20px;
+}
+
+header > a {
+  font-size: 20px;
 }
